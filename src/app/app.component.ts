@@ -14,7 +14,7 @@ export class AppComponent implements AfterViewInit {
   imgUrl: string =
     'https://images.unsplash.com/photo-1687226013074-5d59ffeb2625?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60';
 
-    
+  bool: boolean = true;
 
   @ViewChild(PostComponent) childComp!: string;
 
